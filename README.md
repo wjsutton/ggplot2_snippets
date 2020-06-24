@@ -33,24 +33,25 @@ Quick Link
 
 ## Bar Charts 
 
-Horizonal Bar Chart             |  Horizonal Bar Chart			|  Horizonal Bar Chart	|
+Vertical Bar Chart             |  Vertical Bar Chart with Legend			|  Stacked Vertical Bar Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
-![](images/horizontal_bar_chart.png)  |  ![](images/horizontal_bar_chart.png)	|	![](images/horizontal_bar_chart.png)	|
+[Code](bar_charts/vertical_bar_chart_plot.R)             |  [Code](bar_charts/vertical_bar_chart_plot_with_legend.R)  			|  [Code](bar_charts/vertical_stacked_bar_chart_plot_with_legend.R) 	|
+![](images/vertical_bar_chart.png)  |  ![](images/vertical_bar_chart_with_legend.png)	|	![](images/stacked_vertical_bar_chart.png)	|
 
-<!--p align="center">
-  <img src="images/horizontal_bar_chart.png">
-</p-->
+Horizontal Bar Chart             |  Horizontal Bar Chart with Legend			|  Stacked Horizontal Bar Chart 	|
+:-------------------------:|:-------------------------:|:-------------------------:|
+[Code](bar_charts/horizontal_bar_chart_plot.R)             |  [Code](bar_charts/horizontal_bar_chart_plot_with_legend.R)  			|  Coming Soon 	|
+![](images/horizontal_bar_chart.png)  |  ![](images/horizontal_bar_chart_with_legend.png)	|	![](images/coming_soon.png)	|
 
-**Code**: click [here](bar_charts/horizontal_bar_chart_plot.R)
 
 
 ## Line Charts 
 
-<p align="center">
-  <!--img src="images/horizontal_bar_chart.png"-->
-</p>
+Single Line Chart             |  Muiltiple Line Chart			|  Stacked Line Chart 	|
+:-------------------------:|:-------------------------:|:-------------------------:|
+[Code](line_charts/line_chart_single_plot.R)             |  Coming Soon  			|  Coming Soon 	|
+![](images/line_chart_single.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
 
-**Code**: click [here](line_charts/line_chart_single_plot.R)
 
 ## Voronoi Charts 
 

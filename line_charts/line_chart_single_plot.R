@@ -50,6 +50,6 @@ lineplot <- ggplot(data, aes(x=xValue, y=yValue)) +
            ,color = "#323232")
 
 # Save the plot
-ggsave("lineplot_final.png" # filename
+ggsave("line_chart_single.png" # filename
        ,plot = lineplot # variable for file
        ,width = 5, height = 4, dpi = 300, units = "in") # dimensions and image quality
