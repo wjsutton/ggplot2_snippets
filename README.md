@@ -1,10 +1,10 @@
 <h1 style="font-weight:normal" align="center">
-  R ggplot2 Snippets
+  R ggplot2 Templates
 </h1>
 
-R ggplot2 templates building from https://www.r-graph-gallery.com/
-
 <div align="center">
+
+R ggplot2 templates building from https://www.r-graph-gallery.com/
 
 [Twitter][Twitter] :speech_balloon:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn][LinkedIn] :necktie:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website][Website] :link:
 
@@ -33,8 +33,29 @@ Quick Link
 
 ## Bar Charts 
 
-<p align="center">
+Horizonal Bar Chart             |  Horizonal Bar Chart			|  Horizonal Bar Chart	|
+:-------------------------:|:-------------------------:|:-------------------------:|
+![](images/horizontal_bar_chart.png)  |  ![](images/horizontal_bar_chart.png)	|	![](images/horizontal_bar_chart.png)	|
+
+<!--p align="center">
   <img src="images/horizontal_bar_chart.png">
-</p>
+</p-->
 
 **Code**: click [here](bar_charts/horizontal_bar_chart_plot.R)
+
+
+## Line Charts 
+
+<p align="center">
+  <!--img src="images/horizontal_bar_chart.png"-->
+</p>
+
+**Code**: click [here](line_charts/line_chart_single_plot.R)
+
+## Voronoi Charts 
+
+<p align="center">
+  <img src="images/football_voronoi_20_speed_compressed.gif">
+</p>
+
+**Code**: click [here](voronoi_charts/README_FOOTBALL_VORONOI.md)
