@@ -47,6 +47,6 @@ barplot <- ggplot(data, aes(x=reorder(name, -value), y=value, fill = group)) + #
   )
 
 # Save the plot
-ggsave("barplot_final.png" # filename
+ggsave("vertical_bar_chart_with_legend.png" # filename
        ,plot = barplot # variable for file
        ,width = 5, height = 4, dpi = 300, units = "in") # dimensions and image quality

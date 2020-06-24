@@ -43,6 +43,6 @@ barplot <- ggplot(data, aes(fill=colour, x=name, y=value)) + # enter data frame
        ,caption = "Author: My Name, Source: ")# + # Caption text
 
 # Save the plot
-ggsave("barplot_final.png" # filename
+ggsave("stacked_vertical_bar_chart.png" # filename
        ,plot = barplot # variable for file
        ,width = 5, height = 4, dpi = 300, units = "in") # dimensions and image quality
