@@ -34,6 +34,7 @@ barplot <- ggplot(data, aes(fill=colour, x=name, y=value)) + # enter data frame
     ,axis.ticks.x = element_blank() # Remove tick marks (X-Axis)
     ,axis.text.x  = element_text(size = 12, colour = "#323232") #element_blank() # Remove axis scale (X-Axis)
     ,axis.title.x = element_text(size = 12, colour = "#323232") # Axis label size and colour (X-Axis)
+    ,legend.position = "bottom"
   ) +
   geom_hline(yintercept=0, color = "black", size=1) + # Axis line size and colour (X-Axis)
   labs(title = 'My awesome descriptive title' # Title text

@@ -26,6 +26,7 @@ Quick Link
 <!-- toc -->
 - [Bar Charts](https://github.com/wjsutton/ggplot2_snippets#bar-charts)
 - [Line Charts](https://github.com/wjsutton/ggplot2_snippets#line-charts)
+- [Gantt Charts](https://github.com/wjsutton/ggplot2_snippets#gantt-charts)
 - [Voronoi Charts](https://github.com/wjsutton/ggplot2_snippets#voronoi-charts)
 <!-- tocstop -->
 
@@ -40,8 +41,8 @@ Vertical Bar Chart             |  Vertical Bar Chart with Legend			|  Stacked Ve
 
 Horizontal Bar Chart             |  Horizontal Bar Chart with Legend			|  Stacked Horizontal Bar Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
-[Code](bar_charts/horizontal_bar_chart_plot.R)             |  [Code](bar_charts/horizontal_bar_chart_plot_with_legend.R)  			|  Coming Soon 	|
-![](images/horizontal_bar_chart.png)  |  ![](images/horizontal_bar_chart_with_legend.png)	|	![](images/coming_soon.png)	|
+[Code](bar_charts/horizontal_bar_chart_plot.R)             |  [Code](bar_charts/horizontal_bar_chart_plot_with_legend.R)  			|  [Code](bar_charts/horizontal_stacked_bar_chart_plot_with_legend.R) 	|
+![](images/horizontal_bar_chart.png)  |  ![](images/horizontal_bar_chart_with_legend.png)	|	![](images/stacked_horizontal_bar_chart.png)	|
 
 
 
@@ -51,6 +52,15 @@ Single Line Chart             |  Muiltiple Line Chart			|  Stacked Line Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
 [Code](line_charts/line_chart_single_plot.R)             |  Coming Soon  			|  Coming Soon 	|
 ![](images/line_chart_single.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
+
+
+## Gantt Charts
+
+<p align="center">
+  <img src="images/simple_gantt.png">
+</p>
+
+**Code**: click [here](bar_charts/simple_gantt_chart_plot.R)
 
 
 ## Voronoi Charts 
