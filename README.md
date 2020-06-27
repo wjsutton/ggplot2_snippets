@@ -50,8 +50,8 @@ Horizontal Bar Chart             |  Horizontal Bar Chart with Legend			|  Stacke
 
 Single Line Chart             |  Multiple Line Chart			|  Stacked Line Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
-[Code](line_charts/line_chart_single_plot.R)             |  Coming Soon  			|  Coming Soon 	|
-![](images/line_chart_single.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
+[Code](line_charts/line_chart_single_plot.R)             |  [Code](line_charts/line_chart_multiple_plot.R)  			|  [Code](line_charts/stacked_area_chart_plot.R) 	|
+![](images/line_chart_single.png)  |  ![](images/line_chart_multiple.png)	|	![](images/stacked_area_chart.png)	|
 
 
 ## Gantt Charts
