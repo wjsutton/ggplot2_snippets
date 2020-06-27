@@ -48,7 +48,7 @@ Horizontal Bar Chart             |  Horizontal Bar Chart with Legend			|  Stacke
 
 ## Line Charts 
 
-Single Line Chart             |  Muiltiple Line Chart			|  Stacked Line Chart 	|
+Single Line Chart             |  Multiple Line Chart			|  Stacked Line Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
 [Code](line_charts/line_chart_single_plot.R)             |  Coming Soon  			|  Coming Soon 	|
 ![](images/line_chart_single.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
