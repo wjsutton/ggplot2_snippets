@@ -48,10 +48,15 @@ Horizontal Bar Chart             |  Horizontal Bar Chart with Legend			|  Stacke
 
 ## Line Charts 
 
-Single Line Chart             |  Multiple Line Chart			|  Stacked Line Chart 	|
+Single Line Chart             |  Multiple Line Chart			|  Animated Line Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
-[Code](line_charts/line_chart_single_plot.R)             |  [Code](line_charts/line_chart_multiple_plot.R)  			|  [Code](line_charts/stacked_area_chart_plot.R) 	|
-![](images/line_chart_single.png)  |  ![](images/line_chart_multiple.png)	|	![](images/stacked_area_chart.png)	|
+[Code](line_charts/line_chart_single_plot.R)             |  [Code](line_charts/line_chart_multiple_plot.R)  			|  [Coming Soon] 	|
+![](images/line_chart_single.png)  |  ![](images/line_chart_multiple.png)	|	![](images/coming_soon.png)	|
+
+Single Area Chart             |  Stacked Area Chart			|  Animated Area Chart 	|
+:-------------------------:|:-------------------------:|:-------------------------:|
+[Coming Soon]            |  [Code](line_charts/stacked_area_chart_plot.R)  			|  [Coming Soon] 	|
+![](images/coming_soon.png)  |  ![](images/stacked_area_chart.png)	|	![](images/coming_soon.png)	|
 
 
 ## Gantt Charts
