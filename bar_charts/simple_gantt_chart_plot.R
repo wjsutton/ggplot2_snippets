@@ -48,7 +48,7 @@ data_stack <- filter(data_stack,start != end)
 data_stack$duration <- as.integer(data_stack$end-data_stack$start)
 #data_stack$duration_label <- ifelse(type='Project',paste0(duration," days"),'')
   
-# Legend as factor, no reorder needed
+# Legend as factor
 data_stack$type <- as.factor(data_stack$type)
 data_stack$type <- factor(data_stack$type,rev(levels(data_stack$type)))
 

@@ -28,6 +28,7 @@ Quick Link
 - [Line Charts](https://github.com/wjsutton/ggplot2_snippets#line-charts)
 - [Gantt Charts](https://github.com/wjsutton/ggplot2_snippets#gantt-charts)
 - [Voronoi Charts](https://github.com/wjsutton/ggplot2_snippets#voronoi-charts)
+- [To Do](https://github.com/wjsutton/ggplot2_snippets#to-do)
 <!-- tocstop -->
 
 </details>
@@ -44,6 +45,11 @@ Horizontal Bar Chart             |  Horizontal Bar Chart with Legend			|  Stacke
 [Code](bar_charts/horizontal_bar_chart_plot.R)             |  [Code](bar_charts/horizontal_bar_chart_plot_with_legend.R)  			|  [Code](bar_charts/horizontal_stacked_bar_chart_plot_with_legend.R) 	|
 ![](images/horizontal_bar_chart.png)  |  ![](images/horizontal_bar_chart_with_legend.png)	|	![](images/stacked_horizontal_bar_chart.png)	|
 
+Ridge Bar Chart             |  Another Chart			|  Another Chart 	|
+:-------------------------:|:-------------------------:|:-------------------------:|
+[Code](bar_charts/ridge_bar_chart_plot.R)           |  [Coming Soon]  			|  [Coming Soon] 	|
+![](images/ridge_bar_chart.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
+
 
 
 ## Line Charts 
@@ -58,6 +64,10 @@ Single Area Chart             |  Stacked Area Chart			|  Animated Area Chart 	|
 [Coming Soon]            |  [Code](line_charts/stacked_area_chart_plot.R)  			|  [Coming Soon] 	|
 ![](images/coming_soon.png)  |  ![](images/stacked_area_chart.png)	|	![](images/coming_soon.png)	|
 
+Ridge Line Chart             |  Another Chart			|  Another Chart 	|
+:-------------------------:|:-------------------------:|:-------------------------:|
+[Code](line_charts/ridge_line_chart_plot.R)           |  [Coming Soon]  			|  [Coming Soon] 	|
+![](images/ridge_line_chart.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
 
 ## Gantt Charts
 
@@ -75,3 +85,7 @@ Single Area Chart             |  Stacked Area Chart			|  Animated Area Chart 	|
 </p>
 
 **Code**: click [here](voronoi_charts/README_FOOTBALL_VORONOI.md)
+
+## To Do
+
+- [ ] Map as a ridgeline plot: [https://www.reddit.com/r/dataisbeautiful/comments/gmuzxz/oc_ridgeline_world_map/](https://www.reddit.com/r/dataisbeautiful/comments/gmuzxz/oc_ridgeline_world_map/)

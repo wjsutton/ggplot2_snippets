@@ -10,10 +10,12 @@ folders <- c('bar_charts','line_charts')
 # execute them, generating a new image
 for(a in 1:length(folders)){
   
-  scripts <- list.files(path = paste0(wd,folders[a]))
+  file_path <- paste0(wd,folders[a])
+  
+  scripts <- list.files(path = file_path)
   
   for(i in 1:length(scripts)){
-    source(paste0(path,list.files(path = path)[i]))
+    source(paste0(file_path,'/',scripts[i]))
   }
           
 }
