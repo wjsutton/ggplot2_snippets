@@ -1,14 +1,14 @@
-<h1 style="font-weight:normal" align="center">
+<h1 style="font-weight:normal"> 
   R ggplot2 Templates
 </h1>
 
-<div align="center">
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![GitHub Issues](https://img.shields.io/github/issues/wjsutton/ggplot2_snippets.svg)](https://github.com/wjsutton/ggplot2_snippets/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/wjsutton/ggplot2_snippets.svg)](https://github.com/wjsutton/ggplot2_snippets/pulls) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-R ggplot2 templates building from https://www.r-graph-gallery.com/
+A collection of R ggplot2 templates including a clean and easy to update theme and data labels, inspired by https://www.r-graph-gallery.com/
 
 [Twitter][Twitter] :speech_balloon:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn][LinkedIn] :necktie:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website][Website] :link:
 
-</div>
+<!--/div-->
 
 <!--
 Quick Link 
