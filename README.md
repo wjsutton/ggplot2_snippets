@@ -28,6 +28,7 @@ Quick Link
 - [Line Charts](https://github.com/wjsutton/ggplot2_snippets#line-charts)
 - [Gantt Charts](https://github.com/wjsutton/ggplot2_snippets#gantt-charts)
 - [Voronoi Charts](https://github.com/wjsutton/ggplot2_snippets#voronoi-charts)
+- [Tips & Tricks](https://github.com/wjsutton/ggplot2_snippets#tips-&-tricks)
 - [To Do](https://github.com/wjsutton/ggplot2_snippets#to-do)
 <!-- tocstop -->
 
@@ -85,6 +86,14 @@ Ridge Line Chart             |  Another Chart			|  Another Chart 	|
 </p>
 
 **Code**: click [here](voronoi_charts/README_FOOTBALL_VORONOI.md)
+
+## Tips & Tricks
+
+Custom Categorical Legend             |  Another Tip			|  Another Tip 	|
+:-------------------------:|:-------------------------:|:-------------------------:|
+[Code](tips_and_tricks/custom_cat_legend.R)           |  [Coming Soon]  			|  [Coming Soon] 	|
+![](images/custom_cat_legend.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
+
 
 ## To Do
 
