@@ -89,10 +89,10 @@ Ridge Line Chart             |  Another Chart			|  Another Chart 	|
 
 ## Tips & Tricks
 
-Custom Categorical Legend             |  Another Tip			|  Another Tip 	|
+Custom Categorical Legend             |  Glow Effect			|  Another Tip 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
-[Code](tips_and_tricks/custom_cat_legend.R)           |  [Coming Soon]  			|  [Coming Soon] 	|
-![](images/custom_cat_legend.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
+[Code](tips_and_tricks/custom_cat_legend.R)           |  [Code](tips_and_tricks/glow_effect.R) 			|  [Coming Soon] 	|
+![](images/custom_cat_legend.png)  |  ![](images/glow_effect.png)	|	![](images/coming_soon.png)	|
 
 
 ## To Do
