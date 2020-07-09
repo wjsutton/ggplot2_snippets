@@ -8,20 +8,9 @@ don <- babynames %>%
   filter(name %in% c("Ashley", "Patricia", "Helen")) %>%
   filter(sex=="F")
 
-
-#last_value <- don %>% # last trading day
-#  slice(which.max(xValue))
-
-#range_y <- ifelse(min(data$yValue)>0,max(data$yValue),max(data$yValue) + abs(min(data$yValue)))
-
-
-# Plot
-#don %>%
-#  ggplot( aes(x=year, y=n, group=name, color=name)) +
-#  geom_line()
-
 lineplot <- ggplot(don, aes(x=year, y=n, group=name, color=name)) +
   geom_line(size=1.5) +
+  scale_color_manual(values=c("#5087c7", "#c78650", "#c7c150")) +
   theme(
     panel.grid.major = element_blank() # Remove gridlines (major)
     ,panel.grid.minor = element_blank() # Remove gridlines (minor)

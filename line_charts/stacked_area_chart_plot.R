@@ -10,6 +10,7 @@ don <- babynames %>%
 
 areaplot <- ggplot(don, aes(x=year, y=n, fill=name)) +
   geom_area() +
+  scale_fill_manual(values=c("#5087c7", "#c78650", "#c7c150")) +
   theme(
     panel.grid.major = element_blank() # Remove gridlines (major)
     ,panel.grid.minor = element_blank() # Remove gridlines (minor)
