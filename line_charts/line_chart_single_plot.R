@@ -2,22 +2,20 @@
 library(ggplot2)
 library(dplyr)
 library(directlabels)
+library(babynames)
 
-# create data
-xValue <- 1:10
-yValue <- cumsum(rnorm(10))
-data <- data.frame(xValue,yValue)
+# Keep only 1 name
+don <- babynames %>% 
+  filter(name=="Ashley") %>%
+  filter(sex=="F")
 
-last_value <- data %>% # last trading day
-  slice(which.max(xValue))
-
-range_y <- ifelse(min(data$yValue)>0,max(data$yValue),max(data$yValue) + abs(min(data$yValue)))
-
-### To Do 
-# Work out how to show last value data label
+# create subset for annotations
+last_value <- don[nrow(don),]
+max_value <- don %>% filter(n == max(don$n))
 
 # Plot
-lineplot <- ggplot(data, aes(x=xValue, y=yValue)) +
+lineplot <- ggplot(don, aes(x=year, y=n)) +
+  geom_area(fill="#7f7fff", alpha = 0.4) +
   geom_line(color="#7f7fff", size=2) +
   theme(
     panel.grid.major = element_blank() # Remove gridlines (major)
@@ -39,14 +37,19 @@ lineplot <- ggplot(data, aes(x=xValue, y=yValue)) +
        ,y = 'Value (units)' # Y-Axis text 
        ,caption = "Author: My Name, Source: ") + # Caption text
   scale_y_continuous(limits = c(
-    ifelse(min(data$yValue)>=0,0,min(data$yValue)*1.05) # Minimum Y-Axis scale
-    ,max(data$yValue)*1.05) # Maximum Y-Axis scale 
+    ifelse(min(don$n)>=0,0,min(don$n)*1.05) # Minimum Y-Axis scale
+    ,max(don$n)*1.10) # Maximum Y-Axis scale 
     ,expand = c(0,0) # Removing blank space around plot (Y-Axis)
   ) +
   annotate("text" # adding last value on line as annotation 
-           ,x = last_value$xValue
-           ,y = last_value$yValue + (range_y *0.05)
-           ,label = round(last_value$yValue,1)
+           ,x = last_value$year
+           ,y = last_value$n +(max(don$n) * 0.05)
+           ,label = round(last_value$n,1)
+           ,color = "#323232") +
+  annotate("text" # adding max value on line as annotation 
+           ,x = max_value$year
+           ,y = max_value$n * 1.05
+           ,label = round(max_value$n,1)
            ,color = "#323232")
 
 # Save the plot
