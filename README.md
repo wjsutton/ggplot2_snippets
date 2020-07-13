@@ -57,18 +57,13 @@ Ridge Bar Chart             |  Another Chart			|  Another Chart 	|
 
 Single Line Chart             |  Multiple Line Chart			|  Animated Line Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
-[Code](line_charts/line_chart_single_plot.R)             |  [Code](line_charts/line_chart_multiple_plot.R)  			|  [Coming Soon] 	|
-![](images/line_chart_single.png)  |  ![](images/line_chart_multiple.png)	|	![](images/coming_soon.png)	|
+[Code](line_charts/line_chart_single_plot.R)             |  [Code](line_charts/line_chart_multiple_plot.R)  			|  [Code](line_charts/animated_line_chart_plot.R)  	|
+![](images/line_chart_single.png)  |  ![](images/line_chart_multiple.png)	|	![](images/percentage_of_your_life_america_has_been_at_war.gif)	|
 
-Single Area Chart             |  Stacked Area Chart			|  Animated Area Chart 	|
+Ridge Line Chart             |  Stacked Area Chart		|  Another Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
-[Coming Soon]            |  [Code](line_charts/stacked_area_chart_plot.R)  			|  [Coming Soon] 	|
-![](images/coming_soon.png)  |  ![](images/stacked_area_chart.png)	|	![](images/coming_soon.png)	|
-
-Ridge Line Chart             |  Another Chart			|  Another Chart 	|
-:-------------------------:|:-------------------------:|:-------------------------:|
-[Code](line_charts/ridge_line_chart_plot.R)           |  [Coming Soon]  			|  [Coming Soon] 	|
-![](images/ridge_line_chart.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
+[Code](line_charts/ridge_line_chart_plot.R)           |  [Code](line_charts/stacked_area_chart_plot.R)  			|  [Coming Soon] 	|
+![](images/ridge_line_chart.png)  |   ![](images/stacked_area_chart.png)	|	![](images/coming_soon.png)	|
 
 ## Gantt Charts
 
