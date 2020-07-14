@@ -62,7 +62,7 @@ gantt <- ggplot(data_stack, aes(fill=type, x=name, y=duration)) + # enter data f
   coord_flip() + # flip vertical bars into horizontal bar
   geom_text(aes(label = ifelse(type=='Project',paste0(duration," days"),'') # data labels
                 ,y =  as.integer(end - start_date) + max(duration)*0.01) # positioned just outside bar
-              ,size = (5/14)*12 # sizing in line with theme text
+              ,size = (5/14)*10 # sizing in line with theme text
               ,colour = "#323232" #colour text
               ,hjust = 0) + #align text
   theme(
@@ -72,6 +72,7 @@ gantt <- ggplot(data_stack, aes(fill=type, x=name, y=duration)) + # enter data f
     ,plot.title = element_text(hjust = 0, size = 20, colour = "#323232") # Title size and colour
     ,plot.subtitle = element_text(hjust = 0, size = 12, colour = "#323232") # Subtitle size and colour
     ,plot.caption = element_text(vjust = 0.3, size = 12, colour = "#323232") # Caption size and colour
+    ,plot.margin = margin(0, 10, 0, 0, "pt") # add margin: top, right, bottom, left
     ,axis.ticks.y = element_blank() # Remove tick marks (Y-Axis)
     ,axis.text.y = element_text(hjust = 1, colour = "#323232", size = 12) # Axis size and colour (Y-Axis)
     ,axis.ticks.x = element_blank() # Remove tick marks (X-Axis)
@@ -79,8 +80,8 @@ gantt <- ggplot(data_stack, aes(fill=type, x=name, y=duration)) + # enter data f
     ,axis.title.x = element_text(size = 12, colour = "#323232") # Axis label size and colour (X-Axis)
   ) +
   geom_hline(yintercept=0, color = "black", size=0.5) + # Axis line size and colour (X-Axis)
-  labs(title = element_blank() # Title text
-       ,subtitle = element_blank() # Subtitle text
+  labs(title = 'My awesome descriptive title' # Title text
+       ,subtitle = "Note: this is a subtitle" # Subtitle text
        ,x =  "Project" # X-Axis text 
        ,y = paste0(format(min(data_stack$start),"%b %Y"),' - ',format(max(data_stack$end),"%b %Y")) # Y-Axis text 
        ,caption = element_blank()) + # Caption text
@@ -89,4 +90,4 @@ gantt <- ggplot(data_stack, aes(fill=type, x=name, y=duration)) + # enter data f
 # Save the plot
 ggsave("simple_gantt.png" # filename
        ,plot = gantt # variable for file
-       ,width = 9, height = 3, dpi = 300, units = "in") # dimensions and image quality
+       ,width = 5, height = 4, dpi = 300, units = "in") # dimensions and image quality
