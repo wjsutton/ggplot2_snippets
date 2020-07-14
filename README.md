@@ -26,8 +26,7 @@ Quick Link
 <!-- toc -->
 - [Bar Charts](https://github.com/wjsutton/ggplot2_snippets#bar-charts)
 - [Line Charts](https://github.com/wjsutton/ggplot2_snippets#line-charts)
-- [Gantt Charts](https://github.com/wjsutton/ggplot2_snippets#gantt-charts)
-- [Voronoi Charts](https://github.com/wjsutton/ggplot2_snippets#voronoi-charts)
+- [Other Charts](https://github.com/wjsutton/ggplot2_snippets#other-charts)
 - [Tips & Tricks](https://github.com/wjsutton/ggplot2_snippets#tips-&-tricks)
 - [To Do](https://github.com/wjsutton/ggplot2_snippets#to-do)
 <!-- tocstop -->
@@ -65,22 +64,13 @@ Ridge Line Chart             |  Stacked Area Chart		|  Small Multiples (Line) 	|
 [Code](line_charts/ridge_line_chart_plot.R)           |  [Code](line_charts/stacked_area_chart_plot.R)  			|  [Code](line_charts/line_chart_small_multiples.R) 	|
 ![](images/ridge_line_chart.png)  |   ![](images/stacked_area_chart.png)	|	![](images/line_chart_small_multiples.png)	|
 
-## Gantt Charts
 
-<p align="center">
-  <img src="images/simple_gantt.png">
-</p>
+## Other Charts
 
-**Code**: click [here](bar_charts/simple_gantt_chart_plot.R)
-
-
-## Voronoi Charts 
-
-<p align="center">
-  <img src="images/football_voronoi_20_speed_compressed.gif">
-</p>
-
-**Code**: click [here](voronoi_charts/README_FOOTBALL_VORONOI.md)
+Gantt Chart             |  Waffle Chart			|  Animated Voronoi Chart 	|
+:-------------------------:|:-------------------------:|:-------------------------:|
+[Code](bar_charts/simple_gantt_chart_plot.R)            |  [Code](waffle_charts/waffle_charts_plot.R)  			|  [Code](voronoi_charts/README_FOOTBALL_VORONOI.md)  	|
+![](images/simple_gantt.png)  |  ![](images/waffle_chart.png)	|	![](images/football_voronoi_20_speed_compressed.gif)	|
 
 ## Tips & Tricks
 
