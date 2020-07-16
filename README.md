@@ -45,10 +45,10 @@ Horizontal Bar Chart             |  Horizontal Bar Chart with Legend			|  Stacke
 [Code](bar_charts/horizontal_bar_chart_plot.R)             |  [Code](bar_charts/horizontal_bar_chart_plot_with_legend.R)  			|  [Code](bar_charts/horizontal_stacked_bar_chart_plot_with_legend.R) 	|
 ![](images/horizontal_bar_chart.png)  |  ![](images/horizontal_bar_chart_with_legend.png)	|	![](images/stacked_horizontal_bar_chart.png)	|
 
-Ridge Bar Chart             |  Another Chart			|  Another Chart 	|
+Ridge Bar Chart             |  Animated Bar Chart			|  Another Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
-[Code](bar_charts/ridge_bar_chart_plot.R)           |  [Coming Soon]  			|  [Coming Soon] 	|
-![](images/ridge_bar_chart.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
+[Code](bar_charts/ridge_bar_chart_plot.R)           |  [Code](bar_charts/animated_bar_chart_plot.R)  			|  [Coming Soon] 	|
+![](images/ridge_bar_chart.png)  |  ![](images/bar_chart_race.gif)	|	![](images/coming_soon.png)	|
 
 
 
