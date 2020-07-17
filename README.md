@@ -26,7 +26,7 @@ Quick Link
 <!-- toc -->
 - [Bar Charts](https://github.com/wjsutton/ggplot2_snippets#bar-charts)
 - [Line Charts](https://github.com/wjsutton/ggplot2_snippets#line-charts)
-- [Other Charts](https://github.com/wjsutton/ggplot2_snippets#other-charts)
+- [Alternative Charts](https://github.com/wjsutton/ggplot2_snippets#alternative-charts)
 - [Tips & Tricks](https://github.com/wjsutton/ggplot2_snippets#tips-&-tricks)
 - [To Do](https://github.com/wjsutton/ggplot2_snippets#to-do)
 <!-- tocstop -->
@@ -65,12 +65,17 @@ Ridge Line Chart             |  Stacked Area Chart		|  Small Multiples (Line) 	|
 ![](images/ridge_line_chart.png)  |   ![](images/stacked_area_chart.png)	|	![](images/line_chart_small_multiples.png)	|
 
 
-## Other Charts
+## Alternative Charts
 
 Gantt Chart             |  Waffle Chart			|  Animated Voronoi Chart 	|
 :-------------------------:|:-------------------------:|:-------------------------:|
 [Code](bar_charts/simple_gantt_chart_plot.R)            |  [Code](waffle_charts/waffle_charts_plot.R)  			|  [Code](voronoi_charts/README_FOOTBALL_VORONOI.md)  	|
 ![](images/simple_gantt.png)  |  ![](images/waffle_chart.png)	|	![](images/football_voronoi_20_speed_compressed.gif)	|
+
+Venn Diagram             |  Another Chart			|  Another Chart 	|
+:-------------------------:|:-------------------------:|:-------------------------:|
+[Code](venn_diagrams/venn_diagram.R)            |  [Coming Soon]  			|  [Coming Soon]  	|
+![](images/simple_3_circle_venn.png)  |  ![](images/coming_soon.png)	|	![](images/coming_soon.png)	|
 
 ## Tips & Tricks
 
