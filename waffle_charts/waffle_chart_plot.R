@@ -29,6 +29,8 @@ waffle <- ggplot(data, aes(fill=parts, values=values)) +
     ,axis.text.x  = element_text(hjust = 1, colour = "#323232", size = 12) # Axis size and colour (X-Axis)
     ,axis.title.x = element_text(size = 12, colour = "#323232") # Axis label size and colour (X-Axis)
     ,legend.position = "bottom"
+    ,plot.title.position = "plot"
+    ,plot.caption.position =  "plot"
   ) +
   labs(title = 'My awesome descriptive title' # Title text
        ,subtitle = "Note: this is a subtitle" # Subtitle text
